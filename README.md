@@ -1,7 +1,7 @@
 feel free to correct it if i have wrong code or explanation
 
 edible mushroom classification wit bayesian Learning
-The Equation of bayesian is below
+The Equation of bayesian is below <br/>
 ![equation](https://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20%5Cfrac%7BP%28B%7CA%29*P%28A%29%7D%7BP%28B%29%7D) (1)
 P(A|B) = probabiliy of A happen if B is true
 <br/>
