@@ -1,6 +1,16 @@
 feel free to correct it if i have wrong code or explanation
 
 edible mushroom classification wit bayesian Learning
+The Equation of bayesian is below
+$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$ (1)
+P(A|B) = probabiliy of A happen if B is true
+<br/>
+P(A) and P(B) = probabiliy of A and B <br/>
+in bayesian learning we can say that A is Class and B is data so the equation will be :
+$$P(Ci|X) = \frac{P(X|Ci)*P(Ci)}{P(X)}$$ (2)
+we know that we use the same data for testing it becomes P(X) for Ci has the same probability the equation will be like below :
+$$P(Ci|X) = {P(X|Ci)*P(Ci)}$$ (3)
+where i = categorical of class
 | Features      	  | Description   					       | values  																|
 | ----------------------- |:----------------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------:|
 | class      		  | Edible or poisonous 				       | e = Edible, p = poisonous   														|
@@ -27,14 +37,5 @@ edible mushroom classification wit bayesian Learning
 | population 		  | The populaotion spread      	                       | a = abundant, c = clustered, n = numerous, s = scattered, v = several, y = solitary   							|
 | habitat 		  | The mushroom`s environment      			       | g = grasses, l = leaves, m = meadows, p = paths, u = urban, w = waste, d = woods   							|
 
-The Equation of bayesian is below
-$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$ (1)
-P(A|B) = probabiliy of A happen if B is true
-<br/>
-P(A) and P(B) = probabiliy of A and B <br/>
-in bayesian learning we can say that A is Class and B is data so the equation will be :
-$$P(Ci|X) = \frac{P(X|Ci)*P(Ci)}{P(X)}$$ (2)
-we know that we use the same data for testing it becomes P(X) for Ci has the same probability the equation will be like below :
-$$P(Ci|X) = {P(X|Ci)*P(Ci)}$$ (3)
-where i = categorical of class
+
 
