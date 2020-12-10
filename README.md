@@ -2,14 +2,14 @@ feel free to correct it if i have wrong code or explanation
 
 edible mushroom classification wit bayesian Learning
 The Equation of bayesian is below <br/><br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20%5Cfrac%7BP%28B%7CA%29*P%28A%29%7D%7BP%28B%29%7D)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20%5Cfrac%7BP%28B%7CA%29*P%28A%29%7D%7BP%28B%29%7D)<br/><br/><br/>
 P(A|B) = probabiliy of A happen if B is true
 <br/>
 P(A) and P(B) = probabiliy of A and B <br/>
 in bayesian learning we can say that A is Class and B is data so the equation will be :</br><br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/gif.latex?P%28Ci%7CX%29%20%3D%20%5Cfrac%7BP%28X%7CCi%29*P%28Ci%29%7D%7BP%28X%29%7D)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/gif.latex?P%28Ci%7CX%29%20%3D%20%5Cfrac%7BP%28X%7CCi%29*P%28Ci%29%7D%7BP%28X%29%7D)<br/>
 we know that we use the same data for testing it becomes P(X) for Ci has the same probability the equation will be like below :<br/><br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/gif.latex?P%28Ci%7CX%29%20%3D%20%7BP%28X%7CCi%29*P%28Ci%29%7D)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![equation](https://latex.codecogs.com/gif.latex?P%28Ci%7CX%29%20%3D%20%7BP%28X%7CCi%29*P%28Ci%29%7D)<br/><br/><br/>
 where i = categorical of class
 | Features      	  | Description   					       | values  																|
 | ----------------------- |:----------------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------:|
